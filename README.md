@@ -20,7 +20,7 @@
 
 2. Model checkpoints
 
-To support local deployment, We provide the model checkpoints fine-tuned based on Baichuan2 and Qwen.
+You can use the trained model weights we provide to deploy your own model locally. Our local model weights will be open-sourced after completing various licensing procedures.
 
 ## Installation
 ~~~bash

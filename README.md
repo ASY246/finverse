@@ -3,7 +3,7 @@
 
 ## Tools Depends
 
-This system relies on other third-party tools. Before deploying this system, we recommend configuring the following tools.
+1. This system relies on other third-party tools. Before deploying this system, we recommend configuring the following tools.
 
     a. [Serper](https://serper.dev/api-key) Serper is a industry SERP API, providing access to Google search results. For configuration, you just need to fill in the requested key into the env file.
 
@@ -11,20 +11,23 @@ This system relies on other third-party tools. Before deploying this system, we 
 
     c. [Docker](https://www.docker.com/) Docker containers provide a relatively secure environment for us to run large model generation code. Therefore, we recommend configuring and installing Docker in a simple way so that it can be called through Python's SDK, for example, 
     ~~~bash
-    client = docker.from_env()
+    client = docker.from_env().
     ~~~
 
     d. [Matplotlib](https://matplotlib.org/) Matplotlib is the tool to support analytical charts drawing. You can install it easily by pip.
 
     e. [ReportLab](https://www.reportlab.com/) ReportLab is the tool to support report generation. You can install it easily by pip.
 
+2. Model checkpoints
+
+To support local deployment, We provide the model checkpoints fine-tuned based on Baichuan2 and Qwen.
 
 ## Installation
 ~~~bash
 pip install -r requirements.txt
 ~~~
 
-## Start Command
+## Command
 ~~~bash
 cd demo
 bash start.sh
@@ -36,6 +39,7 @@ finverse/
 ├── akshare_apis  The documents collected from akshares
 ├── bge_search  Embedding files for BGE
 ├── dataset  Opensource dataset
+├── model_checkpoints
 ├── demo  Codes
 │   ├── sdk  Core codes
 │   ├── gradio.py  The script to start the demo as gradio for interface

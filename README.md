@@ -20,7 +20,11 @@
 
 2. Model checkpoints
 
-You can use the trained model weights we provide to deploy your own model locally. Our local model weights will be open-sourced after completing various licensing procedures.
+You can use the trained model weights we provide to deploy your own model locally. 
+
+    a. https://huggingface.co/moonlake/finverse_qwen_based
+    
+    b. https://huggingface.co/moonlake/finverse_baichuan_based
 
 ## Installation
 ~~~bash
@@ -56,6 +60,8 @@ finverse/
 
 
 ## Reference
+This project is for learning and research purposes only and does not support any commercial use. The projects we refer to include：
+
 > 1. [Akshares](https://github.com/akfamily/akshare)
 > 2. [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)
 > 3. [Baichuan](https://github.com/baichuan-inc/Baichuan2)

@@ -1,5 +1,5 @@
 # Finverse
-**Link to the downloadable code and installation package of the DEMO named Finverse**
+Link to the downloadable code and installation package of the DEMO named Finverse
 
 ![image](https://github.com/ASY246/finverse/blob/main/main_pic.png)
 

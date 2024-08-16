@@ -1,6 +1,7 @@
 # Finverse
 Link to the downloadable code and installation package of the DEMO named Finverse
 
+## Architecture
 ![image](https://github.com/ASY246/finverse/blob/main/main_pic.png)
 
 ## Tools Depends
@@ -59,6 +60,8 @@ finverse/
 └── requirements.txt 
 ~~~
 
+## Video Preview
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/bgwqHtv1puU/0.jpg)](https://www.youtube.com/watch?v=bgwqHtv1puU)
 
 ## Reference
 This project is for learning and research purposes only and does not support any commercial use. The projects we refer to include：
